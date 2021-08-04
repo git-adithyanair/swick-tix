@@ -7,8 +7,7 @@ const buildClient = ({ req }) => {
   // page or clicks on a link which directs them to the website.
   if (typeof window === "undefined") {
     return axios.create({
-      baseURL:
-        "http://ingress-nginx-controller.ingress-nginx.svc.cluster.local",
+      baseURL: "http://www.swick-tix.xyz/",
       headers: req.headers,
     });
 
