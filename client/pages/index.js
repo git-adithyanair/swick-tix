@@ -20,7 +20,7 @@ const LandingPage = (props) => {
           : "You are not signed in."}
       </h2>
 
-      <h1 style={{ marginTop: 30 }}>Available tickets</h1>
+      <h1 style={{ marginTop: 35 }}>Available tickets</h1>
       <table className="table">
         <thead>
           <tr>
