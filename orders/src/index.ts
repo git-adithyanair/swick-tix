@@ -7,6 +7,7 @@ import { TicketUpdatedListener } from "./events/listeners/ticket-updated-listene
 import { ExpirationCompleteListener } from "./events/listeners/expiration-complete-listener";
 import { PaymentCreatedListener } from "./events/listeners/payment-created-listener";
 
+// Startup function.
 const start = async () => {
   console.log("Starting Orders...");
   if (!process.env.JWT_KEY) {
